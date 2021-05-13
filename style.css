@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Yesteryear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Fira+Sans:wght@300&family=Noto+Serif&family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 3%;
+    background-image: linear-gradient(145deg,#45bdf5, #8b22d1);
+    overflow-y: scroll;
+    height:780px;
+}
+
+.container{
+    position: relative;
+    height: 720px;
+    width: 42%;
+    box-sizing: border-box;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+    
+}
+
+@media and (max-width:420px) {
+    .container {
+        width: 94%;
+    }
+}
+
+@media screen and (min-width:360px) and (max-width:540px) {
+    .container{
+        width: 90%;
+       }  
+}
+
+@media screen and (min-width:541px) and (max-width:650px) {
+    .container{
+        width: 82%;
+       }  
+}
+@media screen and (min-width:651px) and (max-width:770px) {
+    .container{
+        width: 70%;
+       }  
+}
+@media screen and (min-width:771px) and (max-width:850px) {
+    .container{
+        width: 70%;
+       }  
+}
+@media screen and (min-width:851px) and (max-width:1050px) {
+    .container{
+        width: 58%;
+       }  
+}
+
+.flex1{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    /* background-color: blueviolet; */
+    height: 97%;
+    width: 100%;
+    text-align: center;
+    padding-top: 25px;
+    
+}
+.flexitem1{
+    /* background-color: cadetblue; */
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    margin-top: 1px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid  #aa4ce9;
+}
+.flexitem2{
+    /* background-color: coral; */
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+.heading{
+    font-family: 'Yesteryear', cursive;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-size: 60px;
+    /* font-variant: small-caps; */
+ 
+}
+.cc2{
+    position: absolute;
+    /* background-color: thistle; */
+    width: 90%;
+    height: 540px;
+    top: 130px;
+    left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.f1{
+    position: relative;
+    /* background-color: teal; */
+    width: 95%;
+    height: 55px;
+    left: 13px;
+}
+.i1{
+    position: absolute;
+    width: 96%;
+    left: 6px;
+    height: 81%;
+    bottom: 0px;
+    border: 1px solid rgb(126, 125, 125);
+    font-family: 'Kalam', cursive;
+    font-size: 18px;
+    opacity: 0.8;
+    font-weight: lighter;
+    box-sizing: border-box;
+    border-radius: 5px;
+    
+}
+
+
+#ff1{
+    height: 160px;
+}
+.sp2{
+    position: absolute;
+    /* background-color: thistle; */
+    font-family: 'Kalam', cursive;
+    font-size: 23px;
+    left: 10px;
+    top: 5px;
+
+}
+.z1{
+    position: absolute;
+    /* background-color: tomato; */
+    height: 115px;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+    font-family: 'Courgette', cursive;
+    color: gray;
+}
+#l1{
+    position: absolute;
+    left: 25px;
+    top: 2px;
+}
+#l2{
+    position: absolute;
+    left: 25px;
+    top: 27px;
+}
+#l3{
+    position: absolute;
+    left: 25px;
+    top: 52px;
+}
+#l4{
+    position: absolute;
+    left: 25px;
+    top: 78px;
+}
+.in2{
+    margin: 6px;
+    box-sizing: border-box;
+    
+}
+#fff1{
+    box-sizing: border-box;
+    padding-top: 12px;
+    font-size: 22px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction:row ;
+
+}
+.btn{
+    width: 100%;
+    height: 47px;
+    background: -webkit-linear-gradient(30deg,#45bdf5, #8b22d1 );
+    border: 1px solid transparent;
+    border-radius: 5px;
+    
+
+}
+#submit{
+    box-sizing: border-box;
+    margin: auto;
+    color: white;
+    background-color: transparent;
+    font-family: 'Noto Serif', serif;
+    /* font-family: 'Slabo 27px', serif; */
+    font-size: 23px;
+    font-weight: 600;
+    border: none;
+}
+
+.sp3{
+    font-family: 'Kalam', cursive;
+    font-size: 20px;
+}
+
+
+
+
